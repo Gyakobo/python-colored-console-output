@@ -48,4 +48,24 @@ The colors available with these codes are:
 * 36: Cyan
 * 37: White
 
+You can also use libraries like colorama to make it easier to work with colored text, especially if you are writing cross-platform applications. Here's an example using colorama:
 
+```python
+from colorama import Fore, Style, init
+
+# Initialize colorama
+init()
+
+# Printing text in different colors
+print(Fore.RED + "This is red text" + Style.RESET_ALL)
+print(Fore.GREEN + "This is green text" + Style.RESET_ALL)
+print(Fore.YELLOW + "This is yellow text" + Style.RESET_ALL)
+print(Fore.BLUE + "This is blue text" + Style.RESET_ALL)
+print(Fore.MAGENTA + "This is magenta text" + Style.RESET_ALL)
+print(Fore.CYAN + "This is cyan text" + Style.RESET_ALL)
+```
+`colorama` handles the reset for you, making it a bit easier to manage. To install `colorama`, you can use pip:
+
+```shell
+$ pip install colorama
+```
