@@ -69,3 +69,6 @@ print(Fore.CYAN + "This is cyan text" + Style.RESET_ALL)
 ```shell
 $ pip install colorama
 ```
+
+## License
+MIT
