@@ -37,6 +37,7 @@ Here's a breakdown of the escape sequences:
 * `\033[`: This is the escape character and the beginning of the ANSI code.
 * `31m, 32m, 33m, etc.`: These are the codes for different colors.
 * `0m`: This resets the text color to the default.
+
 The colors available with these codes are:
 
 * 30: Black
